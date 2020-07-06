@@ -10,7 +10,7 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 const MONGODB_URI =
-  'mongodb+srv://techmete:i7xrnMcCIBO9surM@node-js-shopping-site.fplbl.mongodb.net/shop?retryWrites=true&w=majority';
+  '';
 
 const app = express();
 const store = new MongoDBStore({
